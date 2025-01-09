@@ -18,8 +18,8 @@ const Hero = () => {
           <Wand2 className="w-5 h-5 text-[#4361ee]" />
         </div>
     
-        <h1 className="text-5xl font-bold tracking-tight text-white">
-          LEVEL UP YOUR INTERVIEW GAME
+        <h1>
+          <span className="text-5xl font-bold tracking-tight text-white bg-gradient-to-r from-purple-700 to-red-500">LEVEL UP YOUR INTERVIEW GAME</span>
         </h1>
         
         <h2 className="text-7xl font-bold fi text-[#4361ee] pb-4">

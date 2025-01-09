@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from "@/components/ui/button";
+import {logo1} from "@/components/images/logo.png"
 
 const Header = () => {
   return (
@@ -9,8 +10,8 @@ const Header = () => {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between items-center h-16">
         <div className="flex items-center">
-          <span className="text-2xl font-bold">
-            InterviewXpert
+          <span className="">
+           <img src='../logo.png' height={150} width={150} alt='logo'></img>
           </span>
         </div>
         <div className="hidden md:flex items-center space-x-8 bg-gradient-to-r from-blue-100 to-red-400 p-3 rounded-lg ">
