@@ -11,7 +11,11 @@ export default function TeamPage() {
   return (
     <>
     <Header />
-    <div className="min-h-screen bg-gradient-to-br from-purple-500 to-white">
+    <div className="min-h-screen "
+    style={{ backgroundImage: `url('/images/background.png')`,
+      backgroundSize: 'cover'
+      }}
+    >
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         {/* Header Section */}
         <div className="text-center mt-10 mb-20">
@@ -29,7 +33,7 @@ export default function TeamPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <span className="text-white">The brilliant minds behind our success</span>
+            <span className="text-[#a353dc]">The brilliant minds behind our success</span>
           </motion.p>
         </div>
 
@@ -37,7 +41,7 @@ export default function TeamPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Team Member 1 */}
           <motion.div
-            className="relative group"
+            className="relative group hover:bg-gradient-to-r from-blue-400 to-red-600 rounded-md "
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
@@ -56,7 +60,7 @@ export default function TeamPage() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-0 p-6 text-white">
-                  <h3 className="text-xl font-bold">Hasnain Saleem</h3>
+                  <h3 className="text-xl font-bold text-gradient-to-r from-primary to-blue-600">Hasnain Saleem</h3>
                   <p className="text-sm text-gray-300">Lead Designer | UI developer</p>
                   <p className="mt-2 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
                     Passionate about creating intuitive user experiences and beautiful interfaces.
@@ -79,7 +83,7 @@ export default function TeamPage() {
 
           {/* Team Member 2 */}
           <motion.div
-            className="relative group"
+            className="relative group hover:bg-gradient-to-r from-blue-400 to-red-600 rounded-md"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
@@ -121,7 +125,7 @@ export default function TeamPage() {
 
           {/* Team Member 3 */}
           <motion.div
-            className="relative group"
+            className="relative group hover:bg-gradient-to-r from-blue-400 to-red-600 rounded-md"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -131,16 +135,16 @@ export default function TeamPage() {
               <Image
   src="/images/anas.png"
   alt="Anas"
-  width={400}
-  height={400}
-  className="object-cover transition-transform duration-300 group-hover:scale-110"
+  width={500}
+  height={450}
+  className="object-fill transition-transform duration-300 group-hover:scale-110"
   priority
 />
 
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-0 p-6 text-white">
-                  <h3 className="text-xl font-bold">Muhammad Anas</h3>
+                  <h3 className="text-xl font-bold text-[#fffb]">Muhammad Anas</h3>
                   <p className="text-sm text-gray-300">Backend Developer</p>
                   <p className="mt-2 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
                   Full Stack Developer |Specialist | Building Scalable Web Solutions
@@ -163,7 +167,7 @@ export default function TeamPage() {
 
           {/* Team Member 4 */}
           <motion.div
-            className="relative group"
+            className="relative group hover:bg-gradient-to-r from-blue-400 to-red-600 rounded-md"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}

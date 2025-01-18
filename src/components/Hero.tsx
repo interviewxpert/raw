@@ -5,9 +5,17 @@ import { Wand2 } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div>
+    <div
+    className='justify-center items-center object-contain'
+ 
+    style={{ backgroundImage: `url('/images/background.png')`,
+       backgroundSize: 'cover'
+      }}
+  >
       {/* Hero Section */}
-  <section className="pt-32 pb-24 bg-[#f8f9ff]">
+  <section className="pt-32 pb-24"
+ 
+  >
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-center space-y-8">
         <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-300 to-red-300 rounded-full px-4 py-2 shadow-md">
@@ -32,10 +40,10 @@ const Hero = () => {
         </p>
 
         <div className="flex justify-center space-x-4 pt-4">
-          <Button size="lg" className="outline-gradient-button border border-red-600 hover:bg-gradient-to-r hover:from-purple-400 hover:to-red-500 text-[#4361ee]">
+          <Button size="lg" className="outline-gradient-button border border-red-600 hover:bg-gradient-to-r hover:from-blue-600 hover:to-red-500 text-[#4361ee] hover:text-white">
             Take a Mock Interview
           </Button>
-          <Button size="lg" className=" bg-gradient-to-r from-purple-400 to-red-500 hover:bg-gradient-to-r hover:from-purple-400 hover:to-white
+          <Button size="lg" className=" bg-gradient-to-r from-purple-500 to-red-500 hover:bg-gradient-to-r hover:from-blue-800 hover:to-red-500
             text-white">
             Learn How It Works
           </Button>
