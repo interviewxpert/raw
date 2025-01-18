@@ -32,7 +32,7 @@ const Hero = () => {
         </p>
 
         <div className="flex justify-center space-x-4 pt-4">
-          <Button size="lg" className="outline-gradient-button border border-red-600 hover:bg-gradient-to-r hover:from-white hover:to-red-600 text-[#4361ee]">
+          <Button size="lg" className="outline-gradient-button border border-red-600 hover:bg-gradient-to-r hover:from-purple-400 hover:to-red-500 text-[#4361ee]">
             Take a Mock Interview
           </Button>
           <Button size="lg" className=" bg-gradient-to-r from-purple-400 to-red-500 hover:bg-gradient-to-r hover:from-purple-400 hover:to-white

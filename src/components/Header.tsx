@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button } from "@/components/ui/button";
-import {logo1} from "@/components/images/logo.png"
 
 const Header = () => {
   return (
@@ -14,10 +13,10 @@ const Header = () => {
            <img src='../logo.png' height={150} width={150} alt='logo'></img>
           </span>
         </div>
-        <div className="hidden md:flex items-center space-x-8 bg-gradient-to-r from-blue-100 to-red-400 p-3 rounded-lg ">
+        <div className="hidden md:flex items-center space-x-8 bg-gradient-to-r from-blue-200 to-red-400 p-3 rounded-lg ">
           <a href="#" className="hover:text-gray-600 text-white">Discover</a>
           <a href="#" className="hover:text-gray-600 text-white">Our Story</a>
-          <a href="#" className="hover:text-gray-600 text-white">Who We Are</a>
+          <a href="/team" className="hover:text-gray-600 text-white">Who We Are</a>
           <a href="#" className="hover:text-gray-600 text-white">Say Hello</a>
           <a href="#" className="hover:text-gray-600 text-white">Reach Out</a>
         </div>
