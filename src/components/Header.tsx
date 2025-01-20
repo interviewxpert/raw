@@ -22,7 +22,7 @@ const Header = () => {
           <a href="#" className="hover:text-gray-600 text-white">Discover</a>
           <a href="#" className="hover:text-gray-600 text-white">Our Story</a>
           <a href="/team" className="hover:text-gray-600 text-white">Who We Are</a>
-          <a href="#" className="hover:text-gray-600 text-white">Say Hello</a>
+          <a href="/contactUs" className="hover:text-gray-600 text-white">Contact Us</a>
           <a href="#" className="hover:text-gray-600 text-white">Reach Out</a>
         </div>
         <div className="flex items-center space-x-4">
